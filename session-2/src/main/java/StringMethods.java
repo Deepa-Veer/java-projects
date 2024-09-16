@@ -7,9 +7,9 @@ public class StringMethods{
 
         String sname1="Hello world";
         String sname2="Welcome to Java";
-               byte  bytes[]= sname1.getBytes(); // This method returns byte array and Convert string to bytes
-                System.out.println(Arrays.toString(bytes)); //[72, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
-      // System.out.println( sname1.getBytes(StandardCharsets.UTF_8));
+        byte  bytes[]= sname1.getBytes(); // This method returns byte array and Convert string to bytes
+        System.out.println(Arrays.toString(bytes)); //[72, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
+        // System.out.println( sname1.getBytes(StandardCharsets.UTF_8));
         byte[] bytes1=sname1.getBytes(StandardCharsets.UTF_8);//Encodes the string into bytes using UTF-8
         System.out.println(Arrays.toString(bytes1));//[72, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
 
